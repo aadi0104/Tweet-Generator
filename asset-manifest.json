@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Tweet-Generator/static/css/main.ac7ef1b1.css",
+    "main.js": "/Tweet-Generator/static/js/main.e4dc2735.js",
+    "static/js/453.26864999.chunk.js": "/Tweet-Generator/static/js/453.26864999.chunk.js",
+    "static/media/BlankProfileMale.png": "/Tweet-Generator/static/media/BlankProfileMale.e98fd8c432b2369e1929.png",
+    "index.html": "/Tweet-Generator/index.html",
+    "main.ac7ef1b1.css.map": "/Tweet-Generator/static/css/main.ac7ef1b1.css.map",
+    "main.e4dc2735.js.map": "/Tweet-Generator/static/js/main.e4dc2735.js.map",
+    "453.26864999.chunk.js.map": "/Tweet-Generator/static/js/453.26864999.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac7ef1b1.css",
+    "static/js/main.e4dc2735.js"
+  ]
+}
