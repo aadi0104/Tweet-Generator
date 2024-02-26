@@ -1,0 +1,226 @@
+header>p {
+  margin: 0;
+  padding: 20px 0px;
+  color: white;
+  background-color: rgb(5, 5, 34);
+  text-align: center;
+}
+
+#flex-content {
+  display: flex;
+  height: 69.5vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  height: 55vh;
+  text-align: center;
+  border: 2px solid rgb(5, 5, 34);
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.display {
+  padding: 0px 15px 15px 15px;
+  border-radius: 10px;
+}
+
+.display>p {
+  color: white;
+  margin: 0;
+  padding: 5px 10px;
+  text-align: right;
+  font-size: 22px;
+}
+
+.top-div {
+  padding: 0px 20px;
+  margin: 10px 0px;
+  display: inline-block;
+}
+
+.top-div>button {
+  border: none;
+  background-color: transparent;
+  color: rgb(114, 114, 114);
+  font-size: 22px;
+}
+
+.img>img {
+  height: 60px;
+  border-radius: 100%;
+}
+
+.img-div {
+  height: 80px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.img-div>div {
+  padding: 0px 2px;
+}
+
+.img-div>div>p {
+  margin: 0;
+}
+
+.img-div>div>p>input {
+  background-color: transparent;
+  border: none;
+}
+
+.name-input>input {
+  font-size: 18px;
+  color: white;
+  padding: 2px;
+}
+
+.user-input>input {
+  font-size: 18px;
+  padding: 2px;
+  color: gray;
+}
+
+.name-input>input::placeholder {
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+.user-input>input::placeholder {
+  color: gray;
+}
+
+textarea {
+  width: 100%;
+  margin: 0px 0px;
+  height: 50px;
+  font-size: 18px;
+  resize: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+textarea::placeholder {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.time {
+  height: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: gray;
+}
+
+.time p {
+  margin: 0px;
+}
+
+.tweet-details>div>input {
+  width: 30px;
+  border: none;
+  background-color: transparent;
+  color: gray;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.tweet-details {
+  border-bottom: 1px solid white;
+  display: flex;
+  padding: 10px 0px;
+  justify-content: space-evenly;
+}
+
+.report-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.report-bar>p {
+  font-size: 22px;
+}
+
+.report-bar>p {
+  display: inline-block;
+  color: gray;
+  margin: 10px 20px 0px 20px;
+}
+
+#download>button {
+  margin: 10px 20px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: rgb(36, 194, 36);
+}
+
+footer>p {
+  margin: 0;
+  padding: 20px 0px;
+  color: white;
+  background-color: rgb(5, 5, 34);
+  text-align: center;
+}
+
+#hidden {
+  padding: 20px;
+  text-align: center;
+  margin: 10px auto;
+  border: 2px solid rgb(5, 5, 34);
+  border-radius: 10px;
+}
+
+#hidden>div {
+  background-color: rgb(31, 31, 46);
+  padding: 0px 15px 15px 15px;
+  border-radius: 10px;
+}
+
+#hidden>div>p {
+  color: white;
+  margin: 0;
+  padding: 5px 5px 0px 10px;
+  text-align: right;
+  font-size: 22px;
+}
+
+.name-input {
+  font-size: 18px;
+  color: white;
+  padding: 2px;
+}
+
+.user-input {
+  font-size: 18px;
+  padding: 2px;
+  color: gray;
+}
+
+#hidden-time{
+  padding: 10px 0px;
+  border-bottom: 2px solid white;
+}
+
+@media (min-width: 550px) {
+  #content{
+    width: 500px;
+  }
+
+  #hidden{
+    width: 500px;
+  }
+
+}
